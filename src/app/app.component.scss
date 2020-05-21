@@ -1,7 +1,18 @@
 * {
-  margin: 0 10px;
+  margin: 0;
 }
 
-.cards {
+.cards-group {
   display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 50px 20px;
+}
+
+@media (max-width: 600px) {
+  .cards-group {
+    display: block;
+  }
 }
